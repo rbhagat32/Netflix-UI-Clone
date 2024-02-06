@@ -1,0 +1,104 @@
+.main-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 90px auto;
+}
+
+.text {
+  width: 30%;
+}
+
+.text h2 {
+  font-size: 4rem;
+  padding: 0 30px 20px 30px;
+}
+
+.text p {
+  font-size: 1.5rem;
+  padding: 0 30px 20px 30px;
+}
+
+.main-content img {
+  width: 40%;
+}
+
+/* Media Queries */
+
+@media (min-width: 375px) {
+  .text {
+    width: 50%;
+  }
+
+  .text h2 {
+    font-size: 1.2rem;
+  }
+
+  .text p {
+    font-size: 0.6rem;
+  }
+}
+
+@media (min-width: 475px) {
+  .text {
+    width: 50%;
+  }
+
+  .text h2 {
+    font-size: 1.2rem;
+  }
+
+  .text p {
+    font-size: 0.6rem;
+  }
+}
+
+@media (min-width: 640px) {
+  .text {
+    width: 40%;
+  }
+
+  .text h2 {
+    font-size: 1.5rem;
+  }
+
+  .text p {
+    font-size: 0.7rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .text {
+    width: 40%;
+  }
+
+  .text h2 {
+    font-size: 2rem;
+  }
+
+  .text p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .text h2 {
+    font-size: 2.5rem;
+  }
+
+  .text p {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .text h2 {
+    font-size: 3rem;
+  }
+
+  .text p {
+    font-size: 1.2rem;
+  }
+}
+
+/* @media (min-width: 1536px) {} */
